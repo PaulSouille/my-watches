@@ -1,0 +1,14 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.mat-toolbar {
+  font-weight: bold;
+  font-family: "Josefin Sans";
+  font-size: 30px;
+}
+
+.title-center {
+  flex: 1 1 auto;
+  text-align: center;
+}

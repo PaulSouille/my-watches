@@ -1,0 +1,40 @@
+@import '@angular/material/theming';
+@include mat-core();
+$palette: (
+    50 : #f8f5f0,
+    100 : #efe6da,
+    200 : #e4d5c1,
+    300 : #d9c4a8,
+    400 : #d0b896,
+    500 : #c8ab83,
+    600 : #c2a47b,
+    700 : #bb9a70,
+    800 : #b49166,
+    900 : #a78053,
+    A100 : #ffffff,
+    A200 : #ffecd7,
+    A400 : #ffd4a4,
+    A700 : #ffc88b,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #000000,
+        900 : #000000,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+$my-watches-primary: mat-palette($palette);
+$my-watches-accent:  mat-palette($mat-pink, 500, 900, A100);
+$my-watches-warn:    mat-palette($mat-deep-orange);
+$my-watches-theme: mat-light-theme($my-watches-primary, $my-watches-accent, $my-watches-warn);
+
+@include angular-material-theme($my-watches-theme);
