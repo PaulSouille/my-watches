@@ -1,0 +1,24 @@
+@import "./theme/my-watches/theme.scss";
+@import "primeng/resources/primeng.css";
+@import "primeflex/primeflex.css";
+@import "primeicons/primeicons.css";
+
+body {
+    font-family: var(--font-family);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    font-family: "Inter";
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
