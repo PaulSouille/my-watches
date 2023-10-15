@@ -4,6 +4,7 @@ import { DividerComponent } from './components/divider/divider.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { MenubarModule } from 'primeng/menubar';
 import { CardModule } from 'primeng/card';
+import { AvatarModule } from 'primeng/avatar';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { CardModule } from 'primeng/card';
     ],
     imports: [
         MenubarModule,
-        CardModule
+        CardModule,
+        AvatarModule
     ],
     exports: [
         HeaderComponent,
